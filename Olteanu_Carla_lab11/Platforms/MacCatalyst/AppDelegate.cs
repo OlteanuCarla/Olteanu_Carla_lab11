@@ -1,0 +1,10 @@
+﻿using Foundation;
+
+namespace Olteanu_Carla_lab11
+{
+    [Register("AppDelegate")]
+    public class AppDelegate : MauiUIApplicationDelegate
+    {
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    }
+}
